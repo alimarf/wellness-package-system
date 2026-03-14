@@ -1,0 +1,98 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+  
+      {
+        "name": "Mobile App (Dev-Android-Real Device)",
+        "type": "dart",
+        "request": "launch",
+        "openDevTools": "network",
+        "program": "mobile_app/lib/main.dev.dart",
+        "args": ["--flavor", "dev", "-d", "192.168.1.13:36703", "-v"]
+      },
+      {
+        "name": "Mobile App (Dev-Android-Emulator)",
+        "type": "dart",
+        "request": "launch",
+        "openDevTools": "network",
+        "program": "mobile-app/lib/main.dev.dart",
+        "args": ["--flavor", "dev", "-v", "-d", "emulator-5554"]
+      },
+      {
+        "name": "Mobile App (Staging-Android-Emulator)",
+        "type": "dart",
+        "request": "launch",
+        "openDevTools": "network",
+        "program": "mobile_app/lib/main.staging.dart",
+        "args": ["--flavor", "staging", "-v", "-d", "emulator-5554"]
+      },
+      {
+        "name": "Mobile App (Prod-Android-Real Device)",
+        "type": "dart",
+        "request": "launch",
+        "openDevTools": "network",
+        "program": "mobile_app/lib/main.dart",
+        "args": ["--flavor", "prod", "-d", "AIJ7Y5M7USUCKRK7", "-v"]
+      },
+      {
+        "name": "Mobile App (Prod-Android-Emulator)",
+        "type": "dart",
+        "request": "launch",
+        "openDevTools": "network",
+        "program": "mobile_app/lib/main.dart",
+        "args": ["--flavor", "prod", "-v"]
+      },
+      {
+        "name": "Mobile App (Dev-IOS-Real Device)",
+        "type": "dart",
+        "request": "launch",
+        "openDevTools": "network",
+        "program": "mobile_app/lib/main.dev.dart",
+        "args": ["--flavor", "dev", "-d", "Iphone 8", "-v"]
+      },
+      {
+        "name": "Mobile App (Dev-IOS-Emulator)",
+        "type": "dart",
+        "request": "launch",
+        "openDevTools": "network",
+        "program": "mobile_app/lib/main.dev.dart",
+        "args": ["--flavor", "dev", "-d", "iPhone 16", "-v"]
+      },
+      {
+        "name": "Mobile App (Staging-IOS-Real Device)",
+        "type": "dart",
+        "request": "launch",
+        "openDevTools": "network",
+        "program": "mobile_app/lib/main.stag.dart",
+        "args": ["--flavor", "staging", "-d", "Iphone alim", "-v"]
+      },
+      {
+        "name": "Mobile App (Staging-IOS-Emulator)",
+        "type": "dart",
+        "request": "launch",
+        "openDevTools": "network",
+        "program": "mobile_app/lib/main.staging.dart",
+        "args": ["--flavor", "staging", "-d", "iPhone 16", "-v"]
+      },
+      {
+        "name": "Mobile App (Prod-IOS-Real Device)",
+        "type": "dart",
+        "request": "launch",
+        "openDevTools": "network",
+        "program": "mobile_app/lib/main.dart",
+        "args": ["--flavor", "production", "-d", "Iphone alim", "-v"]
+      },
+      {
+        "name": "Mobile App (Prod-IOS-Emulator)",
+        "type": "dart",
+        "request": "launch",
+        "openDevTools": "network",
+        "program": "mobile_app/lib/main.dart",
+        "args": ["--flavor", "prod", "-d", "Iphone 16","-v"]
+      }
+    ]
+  }
+  
