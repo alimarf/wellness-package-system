@@ -46,6 +46,12 @@ Add screenshots below to illustrate the system. Recommended images:
 
 ![Admin portal delete package](./docs/screenshots/admin-portal-delete.png)
 
+### Backend API — Swagger documentation
+
+API docs at `http://localhost:3001/api/docs` (Wellness Package API, admin & mobile endpoints):
+
+![Swagger API documentation](./docs/screenshots/swagger-api-docs.png)
+
 ### Flutter mobile app
 
 **Splash screen**
