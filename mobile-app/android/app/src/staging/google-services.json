@@ -1,0 +1,67 @@
+{
+  "project_info": {
+    "project_number": "471515822055",
+    "project_id": "feedback-dev-cdef7",
+    "storage_bucket": "feedback-dev-cdef7.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:471515822055:android:8fc1f6990f141a4cc3af42",
+        "android_client_info": {
+          "package_name": "com.feedbackasap.app.demo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD16QIHnAIrgSfzlOERssJ7Z3CgVDuNNvQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:471515822055:android:d9307988f165d002c3af42",
+        "android_client_info": {
+          "package_name": "com.feedbackasap.app.dev"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD16QIHnAIrgSfzlOERssJ7Z3CgVDuNNvQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:471515822055:android:343bcccfaea2f4acc3af42",
+        "android_client_info": {
+          "package_name": "com.feedbackasap.app.staging"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD16QIHnAIrgSfzlOERssJ7Z3CgVDuNNvQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

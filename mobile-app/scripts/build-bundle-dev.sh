@@ -1,0 +1,1 @@
+fvm flutter build appbundle --flavor dev -t lib/main.dev.dart --release -v --no-shrink

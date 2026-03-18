@@ -1,0 +1,1 @@
+fvm flutter build ios --flavor dev -t lib/main.dev.dart --release -v
